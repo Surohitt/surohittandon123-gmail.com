@@ -2,9 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c711aa72-7251-44f0-ab8e-11fdc3e4d3b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/db/create.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/api/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/api/ping.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/api/users.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/tests/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/tests/pytest.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/tests/test_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/tests/test_ping.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/tests/test_users.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entrypoint.sh" beforeDir="false" afterPath="$PROJECT_DIR$/entrypoint.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
@@ -28,6 +38,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -40,7 +51,7 @@
       <option name="presentableId" value="Default" />
       <updated>1585706747060</updated>
       <workItem from="1585706750515" duration="1160000" />
-      <workItem from="1585715844699" duration="1721000" />
+      <workItem from="1585715844699" duration="14001000" />
     </task>
     <servers />
   </component>
@@ -48,13 +59,22 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2153" y="350" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585869281567">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2153" y="350" key="#com.intellij.fileTypes.FileTypeChooser/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1585869281567" />
+    <state x="1909" y="179" key="SettingsEditor" timestamp="1585768262323">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1909" y="179" key="SettingsEditor/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1585768262323" />
     <state x="397" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1585715848469">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="397" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1585715848469" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1585718293358">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="1953" y="235" width="894" height="812" key="search.everywhere.popup" timestamp="1585864180469">
+      <screen x="1440" y="0" width="1920" height="1080" />
     </state>
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1585718293358" />
+    <state x="1953" y="235" width="894" height="812" key="search.everywhere.popup/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1585864180469" />
   </component>
 </project>
